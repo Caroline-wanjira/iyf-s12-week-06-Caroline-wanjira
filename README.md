@@ -36,5 +36,5 @@ I created a rensponsive weather app built to demonstrate asynchronus JS and API 
 ## Screenshots 
 ![Weather App](screenshot.png)
 
-## Live Demo (if deployed)
+## Live Demo 
 [Weather App](https://caroline-wanjira.github.io/iyf-s12-week-06-Caroline-wanjira/)
