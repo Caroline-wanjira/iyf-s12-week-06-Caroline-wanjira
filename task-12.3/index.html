@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Directory</title>
+    <style>
+        .hidden { display: none; }
+        #error { color: red; }
+        .user-card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 12px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>User Directory</h1>
+    </header>
+
+    <main id="app">
+        <p id="loading" role="status">Loading...</p>
+        <p id="error" class="hidden" role="alert"></p>
+
+        <section id="users-container" aria-label="List of users"></section>
+    </main>
+
+    <footer>
+        <p>Data from JSONPlaceholder</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
