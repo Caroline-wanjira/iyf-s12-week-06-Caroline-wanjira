@@ -35,8 +35,8 @@ function loadUser(userId, callback) {
     setTimeout(() => {
         const user = {
             id: userId,
-            name: "User " + userId,
-            email: `user${userId}@example.com`
+            name: "Caroline",
+            email: `user${userId}@carolinewanjira.com`
         };
         callback(user);
     }, 1500);
